@@ -1,0 +1,96 @@
+@charset "utf-8";
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; margin: 0; padding: 0; }
+html, body { height: 100%; }
+body { background-color: #1F2934;background: linear-gradient(rgba(0,0,0,.8),rgba(26,33,41,.95)),url(http://pic.46design.com/2018/12/08/9160774.jpg) center/cover no-repeat;background-attachment: fixed;background-size:cover;font-family: 'Microsoft YaHei', Arial; min-width: 1300px; }
+a { text-decoration: none; color: #000; }
+img { border: 0; }
+html, body, div, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, blockquote, pre, button, fieldset, form, input, legend, textarea, th, td { margin: 0; padding: 0; }
+a { text-decoration: none; color: #08acee; }
+button { outline: 0; }
+img { border: 0; }
+button, input, optgroup, select, textarea { margin: 0; font: inherit; color: inherit; outline: none; }
+li { list-style: none; }
+a { color: #666; outline: none; }
+a:hover { color: #333; }
+.clear { clear: both; height: 0px; padding: 0px; margin: 0px; display: block; _display: inherit; }
+.wrap { width: 90%; margin-left: 10%; clear: both; float: left; }
+
+
+
+.lou { width: 100%; margin: 0 auto; font-size: 20px; clear: both; }
+.lou .tit { margin-top: 50px;height: 80px; width: 100%; float: left; color: #333; text-align: center; }
+.lou .tit span { display: inline-block;background: #5A6C7E; color: #fff; font-size: 18px; line-height: 40px; padding: 0 30px; border-radius: 100px; margin: 20px 0; }
+.lou.active .tit span { background: #FF3640; color: #fff;box-shadow: 0 1px 1px rgba(0,0,0,.2);  }
+.lou .con { width: 96%; margin: 0 2%; float: left; background: #fff; box-shadow: 0 2px 3px rgba(0,0,0,.2); border-radius: 5px; }
+.lou .link { padding: 10px 0.5% 0 0.5%; margin-bottom: 8px; }
+.lou .link ul {width: 100%;clear: both;font-size:14px;}
+.lou .link ul li { width: 19%; margin: 0 0.5%; margin-bottom: 10px; float: left; }
+.lou .link ul li.hrtit { width: 99%; margin: 0 0.5%; margin-bottom: 0; float: left; font-size: 12px; color: #1F2934; text-indent: -1000px; height: 0; }
+.lou .link ul li a { position: relative; display: block; padding: 5px; overflow: hidden; border-radius: 4px; transition: all 0.3s; }
+.lou .link ul li a:hover { background: #fff; box-shadow: 0 3px 20px rgba(31,41,52,.3); }
+.lou .link ul li a p { font-size: 14px; font-weight: bold; color: #2E2D43; margin-left: 32px; width: calc(100% - 32px); margin-top: 5px; margin-bottom: 3px; float: left; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 1; line-clamp: 1; -webkit-box-orient: vertical; white-space: inherit; height: 18px; line-height: 18px; }
+.lou .link ul li a p.vpn::after {content: " (VPN)";color: #A0A2A5;font-weight: normal;height: 18px; line-height: 18px; overflow: hidden;}
+.lou .link ul li a:hover p { color: #FF3640; }
+.lou .link ul li a i { width: 26px; height: 26px; display: block; border-radius: 50%; overflow: hidden; position: absolute; top: 5px; left: 5px; }
+.lou .link ul li a i img { width: 26px; height: 26px; }
+.lou .link ul li a em { font-style: normal; font-size: 12px; color: #A0A2A5; margin-left: 32px; width: calc(100% - 32px); float: left; line-height: 18px; height: 18px; text-overflow: -o-ellipsis-lastline; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 1; line-clamp: 1; -webkit-box-orient: vertical; white-space: inherit; }
+.lou .link ul li a em.mbq::before {content: "[免版权] ";color: #0DA02C;font-weight: bold;}
+.lou .link ul .loading { background: url(http://pic.46design.com/2018/09/13/4416004.gif) center no-repeat; margin: 0; width: 100%; height: 150px; display: block; }
+.lou .link ul li.np a p { width: 100%; margin-left: 0; }
+.lou .link ul li.np a em { width: 100%; margin-left: 0; }
+.lou .link ul li.pic a { text-align: center; }
+.lou .link ul li.pic a p { width: 100%; margin-left: 0; margin-top: 3px; float: left; font-weight: normal; background: #fff;font-size: 12px;}
+.lou .link ul li.pic a i { width: 100%; height: 160px; position: inherit; left: 0; top: 0; border-radius: 4px; float: left; margin-bottom: 5px;background: #eee; }
+.lou .link ul li.pic a i img { width: 100%; min-height: 160px; position: inherit; }
+
+
+.lou .link.sli ul li{width: 4.16%;margin: 0 0.3% 10px 0.3%;text-align: center;}
+.lou .link.sli ul li a{padding: 8px 0 2px 0;}
+.lou .link.sli ul li a i{left: 50%;margin-left: -20px;width: 40px;height: 40px;}
+.lou .link.sli ul li a i img{width: 40px;height: 40px;}
+.lou .link.sli ul li a p{font-size: 12px;font-weight: normal!important;width: 100%;margin-left: 0;margin-top: 40px;margin-bottom: 1px;position: relative;}
+.lou .link.sli ul li a p.vpn::after {content: " (VPN)";position: absolute;top: 0;right: 0;}
+.lou .link.sli ul li a em{width: 100%;margin-left: 0;-webkit-line-clamp: 1;line-clamp: 1;height: 16px;line-height: 16px;}
+
+
+.colorbtn{position: fixed;left: 0;bottom: 10px;}
+.colorbtn a{width:40px;text-align:center;background:#990000;color:#fff;}
+
+
+@media screen and (max-width:1000px ) {
+	body {min-width: 100%; }
+	.header{box-shadow: 0 0px 5px rgba(0,0,0,.1);}
+	.wrap{width: 71%;margin-left: 29%;}
+	.footer{width: 71%;margin-left: 29%;}
+	.menu {width: 29%;}
+	.menu .ti ul li {width: 94%;}
+	.menu .ti li span{font-size:14px;}
+	.menu .ti ul li:first-child {display: none;}
+	.lou .link ul li{width: 98.8%;}
+	.lou .link.sli ul li{width: 32.7%;}
+	.lou .link ul li.pic a i {height: 160px;}
+	.lou .link ul li.pic a i img {height: 160px; }
+
+	.banner {height: 0;}
+	.banner #form{display: none;}
+
+	.header .logo{width:40%;}
+	.nav li{margin-right:10px;}
+	.nav li a{padding: 0 10px 0 2px;}
+	.nav.fl{display: none;}
+	.nav.fr{display: none;}
+	.new-actives{display: none;}
+}
+@media screen and (min-width:1600px ) {
+.lou .link ul li.pic a i {height: 210px;}
+.lou .link ul li.pic a i img {height: 210px; }
+	.banner #search{width: 80%;left: 10%;right:10%;}
+	.lou .link.sli ul li { width: 4.16%; }
+	.menu{width: 5%;}
+	.menu .ti li{width: 98%;}
+	.wrap{width: 95%;margin-left: 5%;}
+	
+	
+
+}
+

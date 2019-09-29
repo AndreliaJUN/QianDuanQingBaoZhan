@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>前端流行技术</title>
+  <link rel="stylesheet" href="./../../public/css/bootstrap.min.css-v=3.3.5.css">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link href="/public/favicon.ico" rel="icon" type="image/x-icon">
+  <link rel="stylesheet" href="./../../public/css/web_frame.css">
+</head>
+
+<body>
+  <div class="page-rank">
+    <div class="banner">
+      <div class="inner">
+        <h1>前端流行技术前100名</h1>
+      </div>
+    </div>
+    <div class="container">
+      <div class="list-group list-main">
+        <%for(var i=0;i<(data.links).length;i++){%>
+        <div class="list-group-item list-item">
+          <h3 class="scord"><%=data['links'][i]['index']%></h3>
+          <a><img src="<%=data['links'][i]['thumb']%>" class="cover"></a>
+          <div class="middle">
+            <a href="#">
+              <h4><%= data['links'][i]['title']%></h4>
+            </a>
+            <span class="sdesc"><%= data['links'][i]['description']%></span>
+          </div>
+        </div>
+        <%}%>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
